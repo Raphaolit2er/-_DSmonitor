@@ -6,7 +6,7 @@ What You Need:
 - A Nintendo DS flashcart or a DS emulator that supports Wi-Fi simulation (such as **MelonDS** or **No$GBA**).
 - A computer to run the Python code
 - Python 3.8 or higher
-- Run `pip install Pillow mss pyautogui`
+- Run `pip install Pillow mss`
 
 How to Run:
 1. Open the Python server script file.
@@ -19,8 +19,7 @@ How to Run:
 
 Disclaimers:
 - Multiple consoles at a time aren't possible, as well as multiple times the script.
-- The latency relies entirely on local Wi-Fi stability and TCP packet transmission. From my testing, it was fast enough to play games, even tho some latency was visible.
+- The latency relies entirely on local Wi-Fi stability and TCP/UDP packet transmission. From my testing, it was fast enough to play games, even tho some latency was visible.
 - Memory leaks are a possibility although might be rare.
-- Only Wayland and X11 are supported
 - This project was made using AIs, as I am not a good enough coder to do that on my own. Sorry to people who thought it was made by hand.
 - Wayland users can't have the DS into a monitor due to Google Gemini telling me it's not possible. Comments about this are allowed, and I will fix the code accordingly.
